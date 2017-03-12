@@ -2,7 +2,7 @@
   "name": "node-jira-worklog-cli",
   "version": "1.0.0",
   "description": "Jira worklog client tool with Node.js",
-  "main": ".src/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "lint": "eslint ./src/*.js"
   },
@@ -11,5 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "~3.17.1"
+  },
+  "bin": {
+    "jira-worklog-cli": "./src/index.js"
   }
 }
