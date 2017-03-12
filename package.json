@@ -1,0 +1,12 @@
+{
+  "name": "node-jira-worklog-cli",
+  "version": "1.0.0",
+  "description": "Jira worklog client tool with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
+  "license": "MIT"
+}
