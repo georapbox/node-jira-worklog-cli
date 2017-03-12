@@ -1,32 +1,6 @@
 const https = require('https');
 const readline = require('readline');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-clear();
-rl.write('jira.customedialabs.com');
-rl.question('Host: ', host => {
-  clear(); rl.write('graptis');
-  rl.question('Username: ', username => {
-    clear();
-    rl.question('Password: ', password => {
-      clear(); rl.write('2017-03-09');
-      rl.question('Start date: ', start => {
-        clear(); rl.write('2017-03-10');
-        rl.question('End date: ', end => {
-          clear();
-          getWorklog({host, username, password, start, end});
-          console.log('Please wait...');
-          rl.close();
-        });
-      });
-    });
-  });
-});
-
 function clear() {
   process.stdout.write('\u001B[2J\u001B[0;0f');
 }
@@ -63,7 +37,7 @@ function getWorklog(options) {
     res.setEncoding('utf8');
     let rawData = '';
 
-    res.on('data', (chunk) => rawData += chunk);
+    res.on('data', chunk => rawData += chunk);
 
     res.on('end', () => {
       try {
@@ -77,3 +51,29 @@ function getWorklog(options) {
     console.log(`Got error: ${err.message}`);
   });
 }
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+clear();
+rl.write('jira.customedialabs.com');
+rl.question('Host: ', host => {
+  clear(); rl.write('graptis');
+  rl.question('Username: ', username => {
+    clear();
+    rl.question('Password: ', password => {
+      clear(); rl.write('2017-03-09');
+      rl.question('Start date: ', start => {
+        clear(); rl.write('2017-03-10');
+        rl.question('End date: ', end => {
+          clear();
+          getWorklog({host, username, password, start, end});
+          console.log('Please wait...');
+          rl.close();
+        });
+      });
+    });
+  });
+});
