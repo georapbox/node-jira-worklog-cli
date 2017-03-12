@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const https = require('https');
 const readline = require('readline');
 
