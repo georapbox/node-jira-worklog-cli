@@ -1,6 +1,6 @@
 # node-jira-worklog-cli (experimental)
 
-`node-jira-worklog-cli` is an experimental interactive terminal tool to calculate Worklogs for a given period range and report a total sum.
+`node-jira-worklog-cli` is an interactive terminal tool to calculate Worklogs for a given period range and report a total sum.
 It was created for personal usage, therefore is not published on [npm](https://www.npmjs.com/), but I thought I should share in case someone finds it handy.
 
 ## Install
