@@ -2,18 +2,31 @@
   "name": "node-jira-worklog-cli",
   "version": "1.0.0",
   "description": "Jira worklog client tool with Node.js",
-  "main": "./lib/index.js",
-  "scripts": {
-    "lint": "eslint ./lib/*.js"
-  },
-  "keywords": [],
   "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georapbox/node-jira-worklog-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/georapbox/node-jira-worklog-cli/issues"
+  },
+  "homepage": "https://github.com/georapbox/node-jira-worklog-cli#readme",
+  "keywords": ["jira", "worklog", "node", "cli", "report"],
+  "main": "./lib/index.js",
+  "bin": {
+    "node-jira-worklog-cli": "./lib/index.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint ./lib/*.js"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
   "devDependencies": {
     "eslint": "~3.17.1"
-  },
-  "bin": {
-    "jira-worklog-cli": "./lib/index.js"
   },
   "dependencies": {
     "bluebird": "~3.5.0",
