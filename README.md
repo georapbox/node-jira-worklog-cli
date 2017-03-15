@@ -37,6 +37,10 @@ Print worklogs for running month:
 
 `$ npm start -- --monthly` or `$ node-jira-worklog-cli --monthly` depending on the type of installation.
 
+Print only the work logs sum, omitting the rest information:
+
+`$ npm start -- --silent` or `$ node-jira-worklog-cli --silent` depending on the type of installation.
+
 ## Notes
 
 - `node-jira-worklog-cli` by default saves the latest user's inputs for convenience and pre populates them so that you don't need all this info every time you run it.
