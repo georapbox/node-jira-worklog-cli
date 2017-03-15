@@ -24,10 +24,22 @@ You can install the package globally, by navigating to the project's root folder
 $ npm install -g
 ```
 
-Then you can run the tool from anywhere by running:
+Then you can run the tool from anywhere by executing:
 ```sh
 $ node-jira-worklog-cli
 ```
+
+Print worklogs for running week:
+
+`$ npm start -- weekly` or `$ node-jira-worklog-cli weekly` depending on the type of installation.
+
+Print worklogs for running month:
+
+`$ npm start -- monthly` or `$ node-jira-worklog-cli monthly` depending on the type of installation.
+
+## Notes
+
+- `node-jira-worklog-cli` by default saves the latest user's inputs for convenience and pre populates them so that you don't need all this info every time you run it.
 
 ## Screenshot
 
