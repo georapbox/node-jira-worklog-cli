@@ -12,7 +12,13 @@
     "url": "https://github.com/georapbox/node-jira-worklog-cli/issues"
   },
   "homepage": "https://github.com/georapbox/node-jira-worklog-cli#readme",
-  "keywords": ["jira", "worklog", "node", "cli", "report"],
+  "keywords": [
+    "jira",
+    "worklog",
+    "node",
+    "cli",
+    "report"
+  ],
   "main": "./lib/index.js",
   "bin": {
     "node-jira-worklog-cli": "./lib/index.js"
@@ -32,6 +38,7 @@
     "bluebird": "~3.5.0",
     "chalk": "~1.1.3",
     "moment": "~2.17.1",
-    "tty-table": "~2.2.5"
+    "tty-table": "~2.2.5",
+    "yargs": "~7.0.2"
   }
 }

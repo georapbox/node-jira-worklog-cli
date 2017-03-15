@@ -31,11 +31,11 @@ $ node-jira-worklog-cli
 
 Print worklogs for running week:
 
-`$ npm start -- weekly` or `$ node-jira-worklog-cli weekly` depending on the type of installation.
+`$ npm start -- --weekly` or `$ node-jira-worklog-cli --weekly` depending on the type of installation.
 
 Print worklogs for running month:
 
-`$ npm start -- monthly` or `$ node-jira-worklog-cli monthly` depending on the type of installation.
+`$ npm start -- --monthly` or `$ node-jira-worklog-cli --monthly` depending on the type of installation.
 
 ## Notes
 
