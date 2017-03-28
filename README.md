@@ -29,15 +29,15 @@ Then you can run the tool from anywhere by executing:
 $ node-jira-worklog-cli
 ```
 
-Print worklogs for running month:
+Print worklogs for current **month**:
 
 `$ npm start -- --monthly` or `$ node-jira-worklog-cli --monthly` depending on the type of installation.
 
-Print worklogs for running week:
+Print worklogs for current **week**:
 
 `$ npm start -- --weekly` or `$ node-jira-worklog-cli --weekly` depending on the type of installation.
 
-Print worklogs for running day:
+Print worklogs for current **day**:
 
 `$ npm start -- --daily` or `$ node-jira-worklog-cli --daily` depending on the type of installation.
 
