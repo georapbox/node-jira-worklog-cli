@@ -1,7 +1,7 @@
 {
   "name": "node-jira-worklog-cli",
-  "version": "1.4.0",
-  "description": "Node.js interactive terminal tool to calculate and report Jira work logs",
+  "version": "1.4.1",
+  "description": "Node.js interactive command line tool to calculate and report Jira work logs",
   "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
   "license": "MIT",
   "repository": {
