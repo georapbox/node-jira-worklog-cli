@@ -31,15 +31,15 @@ $ node-jira-worklog-cli
 
 Print worklogs for current **month**:
 
-`$ npm start -- --monthly` or `$ node-jira-worklog-cli --monthly` depending on the type of installation.
+`$ npm start -- --month` or `$ node-jira-worklog-cli --month` depending on the type of installation.
 
 Print worklogs for current **week**:
 
-`$ npm start -- --weekly` or `$ node-jira-worklog-cli --weekly` depending on the type of installation.
+`$ npm start -- --week` or `$ node-jira-worklog-cli --week` depending on the type of installation.
 
 Print worklogs for current **day**:
 
-`$ npm start -- --daily` or `$ node-jira-worklog-cli --daily` depending on the type of installation.
+`$ npm start -- --day` or `$ node-jira-worklog-cli --day` depending on the type of installation.
 
 Print only the work logs sum, omitting the rest information:
 
