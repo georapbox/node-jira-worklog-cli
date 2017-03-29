@@ -1,4 +1,4 @@
-# :clock9: node-jira-worklog-cli
+# node-jira-worklog-cli
 
 A Node.js interactive command line tool to calculate and report Jira work logs for a given time period.
 
