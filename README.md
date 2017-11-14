@@ -34,6 +34,7 @@ $ node-jira-worklog-cli
 
 |Option|Description|
 |--|--|
+|-i, --insecure|By default `https` protocol is used for requests. Use this option to override it and use the `http` protocol.|
 |-s, --silent|Print only the worklogs sum, omitting the rest information|
 |-m, --month|Print worklogs for current **month**|
 |-w, --week|Print worklogs for current **week**|
